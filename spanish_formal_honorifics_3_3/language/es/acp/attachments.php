@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'					=> 'Solo permitido en Mensajes',
 	'NOT_ALLOWED_IN_PM_POST'			=> 'No permitido',
 	'NOT_ASSIGNED'						=> 'No asignado',
-	'NO_ATTACHMENTS'			=> 'No se han encontrado adjuntos en este período.',
+	'NO_ATTACHMENTS'					=> 'No se han encontrado adjuntos en este período.',
 	'NO_EXT_GROUP'						=> 'Ninguno',
 	'NO_EXT_GROUP_NAME'					=> 'No introdujo el nombre del Grupo',
 	'NO_EXT_GROUP_SPECIFIED'			=> 'No especificó Grupo de Extensiones.',
@@ -139,9 +139,9 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'					=> 'Permitir',
 	'ORDER_DENY_ALLOW'					=> 'Denegar',
 
-	'REMOVE_ALLOWED_IPS'			=> 'Eliminar o des-excluir IPs/hostnames <em>permitidas</em>',
-	'REMOVE_DISALLOWED_IPS'			=> 'Eliminar o des-excluir IPs/hostnames <em>no permitidas</em>',
-	'RESYNC_FILES_STATS_CONFIRM'	=> '¿Está seguro que desea resincronizar las estadísticas de archivos?',
+	'REMOVE_ALLOWED_IPS'				=> 'Eliminar o des-excluir IPs/hostnames <em>permitidas</em>',
+	'REMOVE_DISALLOWED_IPS'				=> 'Eliminar o des-excluir IPs/hostnames <em>no permitidas</em>',
+	'RESYNC_FILES_STATS_CONFIRM'		=> '¿Está seguro que desea resincronizar las estadísticas de archivos?',
 
 	'SECURE_ALLOW_DENY'					=> 'Lista de Permitidos/No permitidos',
 	'SECURE_ALLOW_DENY_EXPLAIN'			=> 'Cuando está habilitada la Descarga Segura cambia el comportamiento por defecto de la Lista de Permitidos/No permitidos de <strong>lista blanca</strong> (Permitido) a <strong>lista negra</strong> (No permitido)',
