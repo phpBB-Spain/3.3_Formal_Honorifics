@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACTION'				=> 'Acción',
 	'ACTION_NOTE'			=> 'Acción/Nota',
-	'ADD_FEEDBACK'			=> 'Añadir feedback',
+	'ADD_FEEDBACK'			=> 'Añadir comentarios',
 	'ADD_FEEDBACK_EXPLAIN'	=> 'Si quiere enviar un informe, por favor complete el siguiente formulario. Emplee solo texto plano; HTML, BBCode, etc. no está permitido.',
 	'ADD_WARNING'			=> 'Añadir advertencia',
 	'ADD_WARNING_EXPLAIN'	=> 'Para enviar una advertencia a estos usuarios, por favor complete el siguiente formulario. Emplee solo texto plano; HTML, BBCode, etc. no está permitido.',
