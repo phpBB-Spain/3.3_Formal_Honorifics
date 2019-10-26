@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_REPORT'					=> 'Tiene que introducir una descripción cuando selecciones esta razón',
 	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'Por favor, observe que uno o varios temas han sido eliminados de la base de datos porque estaban vacíos',
 
-	'FEEDBACK'				=> 'Feedback',
+	'FEEDBACK'				=> 'Comentarios',
 	'FORK'					=> 'Copiar',
 	'FORK_TOPIC'			=> 'Copiar tema',
 	'FORK_TOPIC_CONFIRM'	=> '¿Está seguro de querer copiar el tema?',
