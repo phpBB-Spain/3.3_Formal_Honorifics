@@ -42,12 +42,12 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode es una implementación especial de HTML ofreciendo gran control sobre qué y cómo mostrar algo. Desde esta sección puede añadir, eliminar y editar BBCodes personalizados',
 	'ADD_BBCODE'				=> 'Añadir un nuevo BBCode',
 
-	'BBCODE_DANGER'				=> 'El BBCode que está intentando añadir parece que usa la marca clave {TEXT} dentro de un atributo HTML. Eso puede traducirse en un agujero de seguridad XSS. Trate de usar en cambio los tipos {SIMPLETEXT} o {INTTEXT} que son más restrictivos. Solo continúe entiende los riesgos que corre y considera el uso de {TEXT} absolutamente inevitable.',
+	'BBCODE_DANGER'				=> 'El código BBCode que está intentando agregar parece inseguro. Si BBCode usa un token {TEXT} en un contexto sensible, intente usar un tipo más restrictivo. Solo proceda si comprende los riesgos involucrados.',
 	'BBCODE_DANGER_PROCEED'		=> 'Proceder', //'Entiendo el riesgo',
 
 	'BBCODE_ADDED'				=> 'BBCode añadido correctamente.',
 	'BBCODE_EDITED'				=> 'BBCode editado correctamente.',
-	'BBCODE_DELETED'			=> 'El BBCode se ha eliminado con éxito.',
+	'BBCODE_DELETED'			=> 'El BBCode se ha eliminado correctamente.',
 	'BBCODE_NOT_EXIST'			=> 'El BBCode seleccionado no existe.',
 	'BBCODE_HELPLINE'			=> 'Línea de ayuda',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Este campo contiene el consejo de ayuda del BBCode',
@@ -56,6 +56,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'El nombre elegido para este BBCode ya existe.',
 	'BBCODE_INVALID'			=> 'Su BBCode está construido en un formulario no válido.',
+	'BBCODE_INVALID_TEMPLATE'	=> 'La plantilla de su BBCode no es válida.',
 	'BBCODE_TAG'				=> 'Etiqueta',
 	'BBCODE_TAG_TOO_LONG'		=> 'El nombre elegido es muy largo.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'La definición de etiqueta que introdujo es muy larga, por favor acórtela.',
