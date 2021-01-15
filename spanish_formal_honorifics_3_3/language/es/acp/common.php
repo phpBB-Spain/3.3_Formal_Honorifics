@@ -371,9 +371,11 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_ENCODING_TRANSLATION' 			=> 'Codificación de caracteres transparentes no está configurado correctamente',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN' 	=> '<var>mbstring.encoding_translation</var> se debe establecer en 0. Usted puede comprobar el valor actual en la página de <samp>Información de PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP conversión de caracteres de entrada no está configurado correctamente',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN' 			=> '<var>mbstring.http_input</var> se debe establecer en <samp>pass</samp>. Usted puede comprobar el valor actual en la página de <samp>Información de PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN' 			=> '<var>mbstring.http_input</var> debe dejarse vacío. Usted puede comprobar el valor actual en la página de <samp>Información de PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP conversión de caracteres de salida no está configurado correctamente',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN' 			=> '<var>mbstring.http_output</var> se debe establecer en <samp>pass</samp>. Usted puede comprobar el valor actual en la página de <samp>Información de PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN' 			=> '<var>mbstring.http_output</var> debe dejarse vacío. Usted puede comprobar el valor actual en la página de <samp>Información de PHP</samp>.',
+	'ERROR_DEFAULT_CHARSET'							=> 'El juego de caracteres predeterminado está configurado incorrectamente',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> '<var>default_charset</var> debe establecerse en <samp>UTF-8</samp>. Usted puede comprobar el valor actual en la página de <samp>Información de PHP</samp>.',
 
 	'FILES_PER_DAY'		=> 'Adjuntos por día',
 	'FORUM_STATS'		=> 'Estadísticas de foros',
