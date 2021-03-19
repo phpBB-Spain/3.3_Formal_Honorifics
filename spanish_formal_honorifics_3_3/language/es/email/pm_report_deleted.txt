@@ -2,6 +2,6 @@ Subject: Informe eliminado - “{PM_SUBJECT}”
 
 Hola {USERNAME},
 
-Está recibiendo esta notificación porque el informe que guardó relacionado con el mensaje privado “{PM_SUBJECT}” en “{SITENAME}” fue eliminado por un moderador o administrador.
+El informe que presentó sobre el mensaje privado “{PM_SUBJECT}” en “{SITENAME}” ha sido borrado por un Moderador o Administrador.
 
 {EMAIL_SIG}
