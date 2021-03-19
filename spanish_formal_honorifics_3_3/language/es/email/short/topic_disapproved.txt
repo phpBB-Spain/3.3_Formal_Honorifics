@@ -2,7 +2,7 @@ Subject: Tema no aprobado - “{TOPIC_TITLE}”
 
 Hola {USERNAME},
 
-Está recibiendo esta notificación porque su tema “{TOPIC_TITLE}” en “{SITENAME}” no fue aprobado por un(a) Moderador(a) o por La Administración del Sitio.
+Su tema “{TOPIC_TITLE}” en “{SITENAME}” fue desaprobado por un Moderador o Administrador.
 
 No fue aprobado por esta razón:
 
