@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Número predeterminado de caracteres devueltos',
 	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'El número predeterminado de caracteres que se devolverán durante la búsqueda. Un valor de 0 devolverá todo el mensaje.',
 	'DELETE_INDEX'							=> 'Borrar índice',
-	'DELETING_INDEX_IN_PROGRESS'			=> 'Borrado de índice en curso',
+	'DELETING_INDEX_IN_PROGRESS'			=> 'Borrado del índice está en curso…',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'El motor de búsqueda actualmente está limpiando su índice. Esto puede llevar algunos minutos.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'Texto completo solo puede usarse MySQL4 y superiores.',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'GO_TO_SEARCH_INDEX'					=> 'Ir a índice de búsqueda',
 
 	'INDEX_STATS'							=> 'Estadísticas de índice',
-	'INDEXING_IN_PROGRESS'					=> 'Indexación en curso',
+	'INDEXING_IN_PROGRESS'					=> 'Indexación en curso…',
 	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'El motor de búsqueda actualmente está indexando todos los mensajes del Sitio. Esto puede llevar desde un minuto a algunas horas dependiendo del tamaño del Sitio.',
 
 	'LIMIT_SEARCH_LOAD'						=> 'Límite de carga de sistema de la página de búsqueda',
@@ -100,8 +100,8 @@ $lang = array_merge($lang, array(
 
 	'MAX_SEARCH_CHARS'						=> 'Máximo de caracteres indexados para búsqueda',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Palabras con no más que esta cantidad de caracteres serán indexadas para búsqueda.',
-    'MAX_NUM_SEARCH_KEYWORDS'            	=> 'Número máximo de palabras clave permitidas',
-    'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'      	=> 'Número máximo de palabras que el usuario puede buscar. Un valor de 0 permite un número ilimitado de palabras.',
+    	'MAX_NUM_SEARCH_KEYWORDS'            	=> 'Número máximo de palabras clave permitidas',
+    	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'      	=> 'Número máximo de palabras que el usuario puede buscar. Un valor de 0 permite un número ilimitado de palabras.',
 	'MIN_SEARCH_CHARS'						=> 'Mínimo de caracteres indexados para búsqueda',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Palabras con no menos que esta cantidad de caracteres serán indexadas para búsqueda.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Mínimo de caracteres de nombre de autor',
@@ -112,18 +112,19 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Intervalo entre búsquedas para invitados',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Número de segundos que los invitados deberán esperar entre búsquedas. Si un invitado busca, todos los demás deberán esperar que transcurra el intervalo.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		2	=> 'Todos los mensajes hasta el ID %2$d han sido indexados, de los cuales %1$d mensajes se hicieron en este paso.<br />',
+		2	=> 'Todos los mensajes hasta el ID %2$d han sido indexados, de los cuales %1$d mensajes se hicieron en este paso.',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		2	=> 'El promedio actual de indexación es aproximadamente %1$.1f mensajes por segundo.<br />Indexación en curso…',
+		2	=> 'El promedio actual de indexación es aproximadamente %1$.1f mensajes por segundo.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Todos los mensajes hasta el ID %2$d han sido borrados del índice de búsqueda, de los cuales %1$d mensajes estaban dentro de este paso..<br />',
+		2	=> 'Todos los mensajes hasta el ID %2$d han sido borrados del índice de búsqueda, de los cuales %1$d mensajes estaban dentro de este paso.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
-		2	=> 'La tasa actual de borrado es de aproximadamente %1$.1f mensajes por segundo.<br />Borrado en progreso…',
+		2	=> 'La tasa actual de borrado es de aproximadamente %1$.1f mensajes por segundo.',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Indexados todos los mensajes en la base de datos del sitio correctamente.',
+	'SEARCH_INDEX_PROGRESS'					=> 'Hecho: %1$d | Pendiente: %2$d | Total: %3$d',
 	'SEARCH_INDEX_REMOVED'					=> 'Indices de búsquedas para este motor borrados correctamente.',
 	'SEARCH_INTERVAL'						=> 'Intervalo entre búsquedas para usuarios',
 	'SEARCH_INTERVAL_EXPLAIN'				=> 'Número de segundos que los usuarios deberán esperar entre búsquedas. Este intervalo es independiente para cada usuario.',
